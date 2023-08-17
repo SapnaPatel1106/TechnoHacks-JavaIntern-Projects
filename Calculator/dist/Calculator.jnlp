@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Calculator.jnlp">
+  <information>
+    <title>Calculator</title>
+    <vendor>patel</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Calculator.jar" size="18783" download="eager" />
+  </resources>
+  <application-desc main-class="Calci.Calculator"  name="Calculator" >
+  </application-desc>
+  <update check="always"/>
+</jnlp>
